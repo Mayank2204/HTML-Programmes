@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introduction to forms </title>
+	<style type="text/css">
+		#sp {
+			word-spacing: 10px
+		}
+	</style>
+</head>
+<body>
+<form>	
+	username:<input  type="text" name="username" size="10" value="enter name" maxlength="10" />
+	<br />
+
+	male<input type="radio" name="sex" value="male" />
+	female<input type="radio" name="sex" value="female"/>
+	<br>
+
+	<p>Select languages you like!</p>
+	<p id="sp">C<input type="checkbox" name="lang" value="c" />
+	C++<input type="checkbox" name="lang" value="cpp" />
+	Java<input type="checkbox" name="lang" value="java" />
+	HTML<input type="checkbox" name="lang" value="html" />
+	JavaScript<input type="checkbox" name="lang" value="js" />
+	Php<input type="checkbox" name="lang" value="php" />
+	C#<input type="checkbox" name="lang" value="csharp" /></p>
+	
+	<p>select color you want
+	<select name="color">
+			<option valur="red">RED</option>
+			<option valur="black">BALCK</option>
+			<option valur="blue">BLUE</option>
+			<option valur="orange">ORANGE</option>
+			<option valur="green">GREEN</option>
+			<option valur="yellow">YELLOW</option>
+	</select></p>
+	<br>
+	Introduce Your Self:<br>
+	<textarea name="intro" rows="10" cols="80">
+		write something about yourself:
+	</textarea>
+	<br>
+
+	password:<input type="password" name="pwd"/>
+	<p>choose file</p>
+	<input type="file" name="filename">
+</form>
+</body>
+</html>
